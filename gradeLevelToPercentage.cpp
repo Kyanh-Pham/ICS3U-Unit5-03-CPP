@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-    int ConvertMP(std::string mark) {
+    int convertLevelToPercent(std::string mark) {
     // This function converts mark to percentage
     int percentage;
 
@@ -56,7 +56,7 @@ int main() {
     std::cout << "" << std::endl;
 
     // Call function
-    FinalPercent = ConvertMP(markFromUser);
+    FinalPercent = convertLevelToPercent(markFromUser);
 
     // Output
     if (FinalPercent == -1) {
