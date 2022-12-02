@@ -48,7 +48,7 @@
 int main() {
     // This function gets the mark
     std::string markFromUser;
-    int FinalPercent;
+    int finalPercent;
 
     // Input
     std::cout << "Enter the level you want converted to percentage: ";
@@ -56,14 +56,14 @@ int main() {
     std::cout << "" << std::endl;
 
     // Call function
-    FinalPercent = convertLevelToPercent(markFromUser);
+    finalPercent = convertLevelToPercent(markFromUser);
 
     // Output
-    if (FinalPercent == -1) {
+    if (finalPercent == -1) {
         std::cout << "Invalid Input." << std::endl;
     } else {
         std::cout << "Level " << markFromUser << " has a middle percentage of "
-                  << FinalPercent << "%." << std::endl;
+                  << finalPercent << "%." << std::endl;
     }
     std::cout << "\nDone." << std::endl;
 }
